@@ -1,0 +1,74 @@
+#cuerpo h1{
+padding-top: 23px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+} 
+.mapa{
+    width: 200px;
+    float: right;
+    padding-left: 30px;
+}
+.ps{
+     filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 170px;
+  float: left;
+  margin-left: 30px;
+}
+
+.vs{
+    width: 280px;
+   float: right;
+   margin-left: 20px;
+}
+.gimp{
+    width: 100px;
+    left: 89%;
+    position: absolute;
+    bottom: 43.1%;
+}
+.ventydesv{
+    display: block;
+    margin: auto;
+    width: 83%;
+    height:240px;
+    /*border: 1px solid rebeccapurple;*/
+}
+    .ventydesv div{
+        padding-left: 20px;
+       float: left;
+       width:45%;
+       /*border: 1px solid blue;*/
+
+}
+.pixelmator{
+    width: 110px;
+    float: right;
+    margin-top: 2.4%;
+}
+.cellsea{
+width: 400px;
+float: right;
+padding-right: 150px;
+padding-top: 10px;
+    }
+.pixeltool{
+       filter: brightness(1.1);
+  mix-blend-mode: multiply;
+    width: 200px;
+float: right;
+}
+.parrafos2{
+    /*width: 1000px;*/
+    height: 340px;
+}
+.parrafos2 div{
+    display: inline-block;
+    /*width: 200px;*/
+    padding: 20px;
+}
+
+.optimizacion div{
+    text-align: center;
+    display: block;

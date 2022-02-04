@@ -1,0 +1,24 @@
+#cuerpo h1{
+padding-top: 23px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+} 
+.punto{
+    margin-left: 80px;
+}
+.foto5{
+    width: 80px;    
+float: right;
+ filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+.copy{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  /*top: 2500px;*/
+}

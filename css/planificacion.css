@@ -1,0 +1,262 @@
+
+
+.color{
+    margin: auto;
+width: 90%;
+ height: 550px;
+
+}
+.rgb{
+float: right;
+width: 144px;
+
+}
+.rgb2{
+/*position: absolute;*/
+width: 480px;
+padding-top: -30px;
+height: 142px;
+margin: auto;
+display: block;
+    filter: brightness(1.1);
+mix-blend-mode: multiply;
+}
+.parametros{
+        /*border: 2px solid black;*/
+        width: 96%;
+        height: 600px;
+        padding:0px;
+        margin: 0px 20px 0px 10px;
+        display: block;
+        margin: auto;
+}
+
+.hsl{
+   width: 210px;
+   left: 76%;
+    top: 165%;
+   position: absolute;
+ filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+   }
+    .parametro{
+    width: 33.3%;
+    float: left;
+    margin: 10px 0px 0px 0px;
+    height: 585px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+    .fotoparametro{
+         width: 170px;   
+        height: 190px;
+        display: block;
+        margin: auto;
+}
+.#cuerpo2{
+    width: 90%;
+    border: 1px solid blue;
+}
+#cuerpo h1{
+padding-top: 23px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+} 
+.tituloParam{
+    font-family: Garamond;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+}
+.hsvfoto{
+    /*position: absolute;*/
+    width: 170px;
+    height: 160px;
+    float: right;
+    padding-right: 200px;
+       /* left: 1010px;
+        top:105px;
+*/
+
+}
+.hsv2{
+     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 750px;
+    height: 400px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    bottom:-20px;
+
+}
+.adobe{
+    font-weight: 700 ;
+    padding-bottom: 5px;
+    padding-top: 10px;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.foto1{
+     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    /*left: 200px;*/
+    width: 900px;
+    height: 350px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.serif{
+    width: 400px;
+    height: 300px;
+    /*position: absolute;*/
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.foto2{
+      display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 650px;
+    height: 300px;
+    top: 20px;
+ filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.foto3{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    height: 100px;
+    top: 20px;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.icono{
+    /*position: absolute;*/
+    float: right;
+    position: relative;
+    top: -110px;
+    width: 180px;
+    height: 150px;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.cabecera{
+    position: absolute;
+    left: 68%;
+    width:400px;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.menuN{
+    height: 200px;
+    display: block;
+    margin: auto;
+    /*width: 800px;*/
+    /*height: 80px;*/
+    /*margin-left: 24%;*/
+ filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.menu2{
+    width: 800px;
+    height: 190px;
+    display: block;
+    margin: auto;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.menu3{
+     width: 800px;
+    height: 240px;
+     display: block;
+    margin: auto;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.prototipo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 450px;
+    height: 200px;
+    top: 20px;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.mapa{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 480px;
+    height: 300px;
+    top: 0px;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.guia{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 520px;
+    height: 340px;
+    top: 5px;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+}
+.interaccion{
+    /*left: 380px;*/
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: auto;
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.apartado{
+padding-top: 23px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+}
+.enlace{
+   font-family: Garamond;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.fondoFoto{
+     filter: brightness(1.1);
+    mix-blend-mode: multiply;
+        
+}
+.estructura{
+    width: 300px; 
+    height:200px; 
+    float: right;
+      filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+img{
+  left:-20px;
+  margin-left: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  
+}
+
+

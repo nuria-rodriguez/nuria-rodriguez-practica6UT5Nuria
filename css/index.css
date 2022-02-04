@@ -1,0 +1,108 @@
+
+		.titulo{
+		
+		margin: 0px 0px;
+		margin-block-start: 0em;
+	    margin-block-end: 0em;
+	    margin-inline-start: 0px;
+	    margin-inline-end: 0px;
+
+	        }
+	        .portada{
+
+	          text-align: center;
+	        	color:black; 
+	            /*widt: 65%; */
+	            /*border: 1px solid black; */
+	            display: block;
+	             margin:auto;
+	              margin-top: 8%; 
+	              font-size: 100px;
+	        }
+	        .portada h1{
+	        text-align: ;
+	        }
+	        .izq{
+	          height: 130px;
+	          width: 30%;
+	          /*border: 1px solid white;*/
+	          /*display: block;*/
+	          /*margin-top: 35px;*/
+	          top: 20px;
+	          position: absolute;
+	            }
+	            .centro1{
+	              /*position: absolute;*/
+	              left: 40%;
+	              display: block;
+	              margin-left: 45%;
+	              margin-top: 30px;
+	            }
+	        .centro img{
+	          display: inline-block;
+	          width: 25px;
+	          /*margin: auto;*/
+	          /*margin-b  ottom: 10%;*/
+	          padding: 3px;
+	        }
+	        .derecha{
+	          position: absolute;
+	          right: 20px;       
+	          top: 50px;        
+	                 }
+	                 h1{
+	                  font-family: courier new  ;
+	                 }
+	* {
+	    margin: 0;
+	    padding: 0;
+	    font-family: lato;
+	}
+
+	h2 {
+	    text-align: center;
+	    font-size: 2rem;
+	    padding-top: 50px;
+	}
+	.tamano{
+		/*width: 300px;*/
+		height: 300px;
+	}
+	
+	.slider-frame {
+		width:400px;
+	    height: auto;
+		margin:50px auto 0;
+		overflow: hidden;
+	}
+
+	.slider-frame ul {
+		display: flex;
+		padding: 0;
+		width: 400%;
+		
+		animation: slide 20s infinite alternate ease-in-out;
+	}
+
+	.slider-frame li {
+		width: 100%;
+		list-style: none;
+	}
+
+	.slider-frame img {
+		width: 100%;
+	}
+
+	@keyframes slide {
+		0% {margin-left: 0;}
+		20% {margin-left: 0;}
+		
+		25% {margin-left: -100%;}
+		45% {margin-left: -100%;}
+		
+		50% {margin-left: -200%;}
+		70% {margin-left: -200%;}
+		
+		75% {margin-left: -300%;}
+		100% {margin-left: -300%;}
+	}

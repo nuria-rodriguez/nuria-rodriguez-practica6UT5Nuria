@@ -1,0 +1,295 @@
+html{
+  scroll-behavior: smooth;
+}
+
+#cuerpo{
+    width: 90%;
+    /*border: 2px solid   black;*/
+    margin: auto;
+}
+body{
+  margin: 0 ;
+  padding: 0;
+ background: #f3effe
+}
+/*
+#cuerpo h1{
+padding-top: 23px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+} */
+        /*h1{
+        padding-top: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        } */
+header{ 
+  background-color: black;
+  text-align: center;
+}
+	.menu1{
+		height: 70px;
+
+}
+#menu{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+   background-color: #a5b1e1;
+    display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+#menu ul{
+     align-items: center;
+   display: flex;
+  background-color: #a5b1e1;
+  padding: 0;
+  margin: 0;
+ /* height:70px;*/
+
+}
+
+#menu ul li {
+
+    text-transform: uppercase;
+
+}
+
+#menu ul {
+
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu ul a {
+    font-family: Copperplate;
+    font-weight: bold;
+    display:block;
+    color: white;
+    text-decoration:none;
+    font-weight:400;
+    font-size:12px;
+    padding:15px;
+    letter-spacing:1.2px;
+}
+
+#menu ul li {
+    position:relative;
+    /*float:left;*/
+   /* margin:0;
+    padding:0;*/
+}
+
+#menu ul li a:hover {
+    color: #424975 ;
+}
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+   
+}
+#menu ul li:hover > ul {
+/*height: 430px;*/
+display:block;
+    border-radius: 10px;
+
+}
+#menu ul ul li {
+    /*float:none;*/
+    width:130px;
+    /*height: 100px;*/
+}
+
+#menu ul ul a {
+    border-radius: 10px;
+    text-align: center;
+    line-height:1.3em;
+    padding:13px 15px; 
+    
+  /*background-color: hsla(0, 0%, 0%, 0.01);*/
+/*  border: 1px solid black;
+*//*height: 20px;*/
+
+}
+
+/*#menu ul li:hover > ul {
+height: 290px;
+display:block;
+}*/
+/*nav #planif li:hover>ul{
+    height: 320px;
+display:block;
+}
+#menu #imag li:hover>ul{
+    height: 120px;
+display:block;
+}*/
+.logo{
+  position: absolute;
+  width: 70px;
+  left: 50px;
+}
+footer{
+    position: relative;
+  width: 100%;
+  height: 190px;
+  /*border: 2px solid red;*/
+  background: #424975;
+
+}
+footer p{
+font-family:Copperplate;
+color: white;
+
+}
+.redes{
+
+  position: absolute;
+  left: 3%;
+  top: 15%;
+}
+.redes img{
+  filter: invert(1);
+}
+
+
+.final{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  font-size: 13px;
+  font-family: Copperplate;
+
+}
+.imagenes img{
+  filter: invert(1);
+  transform: scale(0.8);
+  cursor: pointer;
+}
+.imagenes{
+    margin-top: 4%;
+}
+.rrss{
+  position: absolute;
+   top: 22px;
+  left: 40px;
+  margin:0;
+}
+.final img{
+  width: 25px;
+}
+ 
+.num{
+  font-size: 13px;
+  position: absolute;
+  top: 75px;
+  left: 34px;
+}
+.info{
+  position: absolute;
+  padding-top: 0px;
+  left: 1000px;
+
+}
+
+.copy{
+  position: absolute;
+  text-align: center;
+  left: 37%;
+}
+
+.gmail{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  filter: invert(1);
+
+
+}
+.contacto{
+  position: absolute;
+  right: 3%;
+ top: 15%;
+}
+.contacto img{
+    filter: invert(1);
+}
+.validator img{
+  position: absolute;
+  top: 70px;
+  left: 47%;
+
+}
+.inicio{
+   font-size: 16px;
+  font-family: Copperplate;
+}
+footer{
+    font-family: Copperplate;
+}
+h2{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Copperplate;
+    margin: 0px;
+    padding: 20px 0px 10px 30px;
+   
+}
+
+h3{
+font-family: Copperplate;
+padding-bottom:15px;
+padding-top: 20px;
+margin: 0px;
+font-size: 20px;
+padding-left: 40px;
+font-weight: bold;
+}
+h6{
+    font-size: 18px;
+    font-family: Copperplate;
+padding-bottom:15px;
+padding-top: 20px;
+margin: 0px;
+
+padding-left: 30px;
+font-weight: bold;
+}
+p{
+    font-family: Copperplate;
+    margin: 0px;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0px 30px 0px 30px;
+    line-height: 1.7em;
+}
+#boton{
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 40px;
+    /*border: 1px solid blue;*/
+}
+.subir{
+   height: 25px;
+   width: 25px;
+   display: block;
+    float: right;
+    /*border: 1px solid red;*/
+
+}
+    .subir img{
+        width: 23px;
+
+}

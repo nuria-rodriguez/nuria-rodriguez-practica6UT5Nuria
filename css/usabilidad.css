@@ -1,0 +1,44 @@
+#cuerpo h1{
+padding-top: 23px;
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+} 
+
+.foto4{
+      filter: brightness(1.1);
+  mix-blend-mode: multiply;
+   width: 230px;
+position: absolute;
+left: 990px;
+top: 90px;
+}
+.primeru{
+    padding-left: 50px;
+
+}
+.subindice{
+    padding-left: 50px;
+}
+.subindice2{
+    padding-left: 60px;
+}
+.seo{
+    float: right;
+    width: 220px;
+    margin-right: 50px;
+}
+.seofotos{
+width:58.6%;
+display: block;
+margin: auto;
+margin-top: 20px;
+
+}
+.seofotos img{
+    width: 300px;
+    }
+.black{
+    width: 160px;
+    height: 200px;
+}
